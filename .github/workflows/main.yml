@@ -2,7 +2,7 @@ name: build and TEst mary branch
 on:
   push:
     branches:
-      - mary
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
